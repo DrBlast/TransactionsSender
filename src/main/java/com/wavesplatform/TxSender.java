@@ -2,6 +2,8 @@ package com.wavesplatform;
 
 
 import com.wavesplatform.network.client.NetworkSender;
+import com.wavesplatform.network.TrafficLogger;
+
 import io.netty.channel.Channel;
 import scala.collection.JavaConverters;
 import scala.concurrent.Await;
